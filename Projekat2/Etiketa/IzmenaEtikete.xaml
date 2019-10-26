@@ -1,0 +1,78 @@
+﻿<Window x:Class="Projekat2.Etiketa.IzmenaEtikete"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:xctk="http://schemas.xceed.com/wpf/xaml/toolkit"
+        xmlns:val="clr-namespace:Projekat2.Etiketa"
+        xmlns:local="clr-namespace:Projekat2.Etiketa"
+        mc:Ignorable="d"
+        Title="Izmena etikete" Height="248.957" Width="362.865">
+    <Grid Margin="5">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="1*" />
+            <ColumnDefinition Width="2*" />
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="auto" />
+            <RowDefinition Height="auto" />
+            <RowDefinition Height="auto" />
+        </Grid.RowDefinitions>
+
+        <Label HorizontalAlignment="Center" VerticalAlignment="Center" Grid.Column="0" Grid.Row="0" Content="Oznaka*:" Margin="29,2,28,10"></Label>
+        <TextBox x:Name="OznakaBox" Grid.Column="1" Grid.Row="0" Margin="5,5,5,14">
+            <TextBox.Text>
+                <Binding Path="Etiketa.Oznaka" UpdateSourceTrigger="PropertyChanged">
+                    <Binding.ValidationRules>
+                        <val:ValidacijaEtikete ValidationStep="RawProposedValue"/>
+                        <val:ValidacijaEtiketeOznaka ValidationStep="RawProposedValue" />
+                    </Binding.ValidationRules>
+                </Binding>
+            </TextBox.Text>
+            <Validation.ErrorTemplate>
+                <ControlTemplate>
+                    <Grid>
+                        <Grid.RowDefinitions>
+                            <RowDefinition />
+                            <RowDefinition Height="auto" />
+                        </Grid.RowDefinitions>
+                        <AdornedElementPlaceholder Grid.Row="0" x:Name="textBox"/>
+                        <TextBlock Grid.Row="1" Text="{Binding [0].ErrorContent}" Foreground="Red"/>
+                    </Grid>
+                </ControlTemplate>
+            </Validation.ErrorTemplate>
+        </TextBox>
+
+        <Label VerticalAlignment="Center" HorizontalAlignment="Center" Grid.Column="0" Grid.Row="1"  Content="Opis*:" Margin="39,20,39,35"></Label>
+        <TextBox x:Name="OpisBox" TextWrapping="Wrap" VerticalScrollBarVisibility="Auto" Grid.Column="1" Grid.Row="1" Margin="5,5,5,15" Height="60">
+            <TextBox.Text>
+                <Binding Path="Etiketa.Opis" UpdateSourceTrigger="PropertyChanged">
+                    <Binding.ValidationRules>
+                        <val:ValidacijaEtiketeOpis ValidationStep="RawProposedValue"/>
+                    </Binding.ValidationRules>
+                </Binding>
+            </TextBox.Text>
+            <Validation.ErrorTemplate>
+                <ControlTemplate>
+                    <Grid>
+                        <Grid.RowDefinitions>
+                            <RowDefinition />
+                            <RowDefinition Height="auto" />
+                        </Grid.RowDefinitions>
+                        <AdornedElementPlaceholder Grid.Row="0" x:Name="textBox"/>
+                        <TextBlock Grid.Row="1" Text="{Binding [0].ErrorContent}" Foreground="Red"/>
+                    </Grid>
+                </ControlTemplate>
+            </Validation.ErrorTemplate>
+        </TextBox>
+        <Label VerticalAlignment="Center" HorizontalAlignment="Center" Grid.Column="0" Grid.Row="2" Content="Boja*:" Margin="39,3,29,17" Width="47"></Label>
+        <xctk:ColorPicker x:Name="BojaBox" SelectedColor="{Binding Etiketa.Boja}" Grid.Column="1" Grid.Row="2" HorizontalAlignment="Left" Height="23" Margin="5,5,5,15" Width="210"></xctk:ColorPicker >
+
+        <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" Margin="0,5,0,0" Grid.Column="1" Grid.Row="12">
+            <Button HorizontalAlignment="Left" MinWidth="80px" MinHeight="30px" Click="btnSacuvaj_Click">Sačuvaj</Button>
+            <Button HorizontalAlignment="Right" MinWidth="80px" MinHeight="30px" Margin="5,0,0,0" Height="30" VerticalAlignment="Bottom" Click="Cancel_Click">Odustani</Button>
+        </StackPanel>
+
+    </Grid>
+</Window>

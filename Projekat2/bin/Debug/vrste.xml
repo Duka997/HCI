@@ -1,0 +1,247 @@
+<?xml version="1.0"?>
+<ArrayOfVrstaKlasa xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <VrstaKlasa>
+    <Oznaka>ns41</Oznaka>
+    <Ime>Nosorog</Ime>
+    <Opis>dfans fnj ansdf adsf asd</Opis>
+    <Tip>nsg5</Tip>
+    <Etikete>
+      <EtiketaKlasa>
+        <Oznaka>et2</Oznaka>
+        <Boja>
+          <A>255</A>
+          <R>0</R>
+          <G>128</G>
+          <B>0</B>
+          <ScA>1</ScA>
+          <ScR>0</ScR>
+          <ScG>0.2158605</ScG>
+          <ScB>0</ScB>
+        </Boja>
+        <Opis>fd sa dfas32 32fe wfds</Opis>
+      </EtiketaKlasa>
+      <EtiketaKlasa>
+        <Oznaka>et3</Oznaka>
+        <Boja>
+          <A>255</A>
+          <R>255</R>
+          <G>228</G>
+          <B>196</B>
+          <ScA>1</ScA>
+          <ScR>1</ScR>
+          <ScG>0.7758222</ScG>
+          <ScB>0.55201143</ScB>
+        </Boja>
+        <Opis> asg sdfg dfsg dsf gds</Opis>
+      </EtiketaKlasa>
+    </Etikete>
+    <StUgr>Ugrožena</StUgr>
+    <Ikonica>C:\Users\Duka\Desktop\HCI\Projekat\slike vrsta\nosorog.png</Ikonica>
+    <OpZaLjude>true</OpZaLjude>
+    <NaIucn>true</NaIucn>
+    <ZiviUNasMes>false</ZiviUNasMes>
+    <TurStatus>Delimično habituirana</TurStatus>
+    <GodPrihod>9876</GodPrihod>
+    <DatOtkr>0001-01-01T00:00:00</DatOtkr>
+    <X>362</X>
+    <Y>442</Y>
+  </VrstaKlasa>
+  <VrstaKlasa>
+    <Oznaka>Dlf01</Oznaka>
+    <Ime>Delfin</Ime>
+    <Opis>fd kasmdfk sdaf sad</Opis>
+    <Tip>dlf2</Tip>
+    <Etikete>
+      <EtiketaKlasa>
+        <Oznaka>et1</Oznaka>
+        <Boja>
+          <A>255</A>
+          <R>255</R>
+          <G>0</G>
+          <B>0</B>
+          <ScA>1</ScA>
+          <ScR>1</ScR>
+          <ScG>0</ScG>
+          <ScB>0</ScB>
+        </Boja>
+        <Opis>afn dsjf adjsbfkasdfsd</Opis>
+      </EtiketaKlasa>
+    </Etikete>
+    <StUgr>Ugrožena</StUgr>
+    <Ikonica>C:\Users\Duka\Desktop\HCI\Projekat\slike vrsta\delfin.png</Ikonica>
+    <OpZaLjude>true</OpZaLjude>
+    <NaIucn>false</NaIucn>
+    <ZiviUNasMes>false</ZiviUNasMes>
+    <TurStatus>Delimično habituirana</TurStatus>
+    <GodPrihod>321432</GodPrihod>
+    <DatOtkr>0001-01-01T00:00:00</DatOtkr>
+    <X>571</X>
+    <Y>522</Y>
+  </VrstaKlasa>
+  <VrstaKlasa>
+    <Oznaka>zmj5</Oznaka>
+    <Ime>Zmija</Ime>
+    <Opis>dfs ajhbfjdsa bjkfpnsd afsd a</Opis>
+    <Tip>dlf2</Tip>
+    <Etikete>
+      <EtiketaKlasa>
+        <Oznaka>et1</Oznaka>
+        <Boja>
+          <A>255</A>
+          <R>255</R>
+          <G>0</G>
+          <B>0</B>
+          <ScA>1</ScA>
+          <ScR>1</ScR>
+          <ScG>0</ScG>
+          <ScB>0</ScB>
+        </Boja>
+        <Opis>afn dsjf adjsbfkasdfsd</Opis>
+      </EtiketaKlasa>
+      <EtiketaKlasa>
+        <Oznaka>et2</Oznaka>
+        <Boja>
+          <A>255</A>
+          <R>0</R>
+          <G>128</G>
+          <B>0</B>
+          <ScA>1</ScA>
+          <ScR>0</ScR>
+          <ScG>0.2158605</ScG>
+          <ScB>0</ScB>
+        </Boja>
+        <Opis>fd sa dfas32 32fe wfds</Opis>
+      </EtiketaKlasa>
+      <EtiketaKlasa>
+        <Oznaka>et3</Oznaka>
+        <Boja>
+          <A>255</A>
+          <R>255</R>
+          <G>228</G>
+          <B>196</B>
+          <ScA>1</ScA>
+          <ScR>1</ScR>
+          <ScG>0.7758222</ScG>
+          <ScB>0.55201143</ScB>
+        </Boja>
+        <Opis> asg sdfg dfsg dsf gds</Opis>
+      </EtiketaKlasa>
+    </Etikete>
+    <StUgr>Ugrožena</StUgr>
+    <Ikonica>C:\Users\Duka\Desktop\HCI\Projekat\slike vrsta\zmija.png</Ikonica>
+    <OpZaLjude>true</OpZaLjude>
+    <NaIucn>true</NaIucn>
+    <ZiviUNasMes>true</ZiviUNasMes>
+    <TurStatus>Delimično habituirana</TurStatus>
+    <GodPrihod>432232</GodPrihod>
+    <DatOtkr>0001-01-01T00:00:00</DatOtkr>
+    <X>641</X>
+    <Y>432</Y>
+  </VrstaKlasa>
+  <VrstaKlasa>
+    <Oznaka>fed</Oznaka>
+    <Ime>f sd fds</Ime>
+    <Opis> ewfds </Opis>
+    <Tip>dlf2</Tip>
+    <Etikete>
+      <EtiketaKlasa>
+        <Oznaka>et1</Oznaka>
+        <Boja>
+          <A>255</A>
+          <R>255</R>
+          <G>0</G>
+          <B>0</B>
+          <ScA>1</ScA>
+          <ScR>1</ScR>
+          <ScG>0</ScG>
+          <ScB>0</ScB>
+        </Boja>
+        <Opis>afn dsjf adjsbfkasdfsd</Opis>
+      </EtiketaKlasa>
+      <EtiketaKlasa>
+        <Oznaka>et2</Oznaka>
+        <Boja>
+          <A>255</A>
+          <R>0</R>
+          <G>128</G>
+          <B>0</B>
+          <ScA>1</ScA>
+          <ScR>0</ScR>
+          <ScG>0.2158605</ScG>
+          <ScB>0</ScB>
+        </Boja>
+        <Opis>fd sa dfas32 32fe wfds</Opis>
+      </EtiketaKlasa>
+    </Etikete>
+    <StUgr>Ranjiva</StUgr>
+    <Ikonica>C:\Users\Duka\Desktop\HCI\Projekat\slike vrsta\kamila.png</Ikonica>
+    <OpZaLjude>false</OpZaLjude>
+    <NaIucn>false</NaIucn>
+    <ZiviUNasMes>false</ZiviUNasMes>
+    <TurStatus>Delimično habituirana</TurStatus>
+    <GodPrihod>0</GodPrihod>
+    <DatOtkr>0001-01-01T00:00:00</DatOtkr>
+    <X>843</X>
+    <Y>504</Y>
+  </VrstaKlasa>
+  <VrstaKlasa>
+    <Oznaka>oznak</Oznaka>
+    <Ime>Ime</Ime>
+    <Opis>Opis</Opis>
+    <Tip>dlf2</Tip>
+    <Etikete>
+      <EtiketaKlasa>
+        <Oznaka>et0</Oznaka>
+        <Boja>
+          <A>255</A>
+          <R>127</R>
+          <G>255</G>
+          <B>212</B>
+          <ScA>1</ScA>
+          <ScR>0.212230757</ScR>
+          <ScG>1</ScG>
+          <ScB>0.658374846</ScB>
+        </Boja>
+        <Opis>fddbcv b  bfd f dbdfwe3 2fds</Opis>
+      </EtiketaKlasa>
+      <EtiketaKlasa>
+        <Oznaka>et1</Oznaka>
+        <Boja>
+          <A>255</A>
+          <R>255</R>
+          <G>0</G>
+          <B>0</B>
+          <ScA>1</ScA>
+          <ScR>1</ScR>
+          <ScG>0</ScG>
+          <ScB>0</ScB>
+        </Boja>
+        <Opis>afn dsjf adjsbfkasdfsd</Opis>
+      </EtiketaKlasa>
+      <EtiketaKlasa>
+        <Oznaka>et3</Oznaka>
+        <Boja>
+          <A>255</A>
+          <R>255</R>
+          <G>228</G>
+          <B>196</B>
+          <ScA>1</ScA>
+          <ScR>1</ScR>
+          <ScG>0.7758222</ScG>
+          <ScB>0.55201143</ScB>
+        </Boja>
+        <Opis> asg sdfg dfsg dsf gds</Opis>
+      </EtiketaKlasa>
+    </Etikete>
+    <StUgr>Ranjiva</StUgr>
+    <Ikonica>C:\Users\Duka\Desktop\HCI\Projekat\slike vrsta\nosorog.png</Ikonica>
+    <OpZaLjude>false</OpZaLjude>
+    <NaIucn>true</NaIucn>
+    <ZiviUNasMes>false</ZiviUNasMes>
+    <TurStatus>Delimično habituirana</TurStatus>
+    <GodPrihod>0</GodPrihod>
+    <DatOtkr>0001-01-01T00:00:00</DatOtkr>
+    <X>943</X>
+    <Y>366</Y>
+  </VrstaKlasa>
+</ArrayOfVrstaKlasa>

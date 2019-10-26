@@ -1,0 +1,171 @@
+﻿<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html>
+	<head>
+		<title></title>
+	</head>
+	<body>
+	    <h1 align="center">Vrsta</h1>
+        
+        <div id="OVrsti">
+        <h2>O vrsti</h2>
+            <p>
+                Vrsta predstavlja glavni entitet ove aplikacije. Svaka vrsta se opisuje preko svoje jedinstvene oznake,
+                svoga imena, opisa, tipa, statusa ugroženosti, ikonice, da li je opasna za ljude, da li je na IUCN 
+                crvenoj listi, da li živi u naseljenom regionu ili ne, turističkog statusa, godišnjeg prihoda od turizma
+                kao i datuma otrkivanja.
+            </p>
+            <img alt src="Images/ugroVrste.png" />
+            <p>Na slici je prikazan dijalog za dodavanje nove vrste</p>
+
+        </div>
+        <div id="oznVrste">
+            <h2>Oznaka vrste</h2>
+                
+            <p>
+                Oznaka vrste služi da jedinstveno identifikuje vrstu. Kada kažemo jednistveno to znači da ne mogu postojati vrste sa istom oznakom.
+                Ovo polje je dužine izmedju 3 ili 5 karaktera. Karakteri mogu biti kombinacija cifara i brojeva. Ukoliko korisnik ne unese dovoljnu
+                dužinu karaktera prikazaće se poruka sa greškom da je minimalna dužina oznake 3 karaktera. Isti slučaj je i ukoliko se unese više od
+                5 karaktera, korisnik će biti obavešten da je maksimalna dužina oznake 5 karaktera. Poruka o grešci javlja se i ukoliko korisnik unese
+                oznaku vrste koja već postoji u aplikaciji.
+            </p>
+
+        </div>
+        <div id="ImeVrste">
+            <h2>Ime vrste</h2>
+
+            <p>
+                Ime vrste treba da obezbedi imenovanje odredjene vrste. Ovo polje je takodje obavezno, ali ne mora da bude jedistveno, što znači da mogu
+                postojati dve različite vrste sa različitim oznakama ali sa istim imenom. Ukoliko korisnik ne unese ime vrste, biće upozoren da je potrebno
+                uneti ime vrste.
+            </p>
+            <img src="Images/imeVrste.png" />
+            <p>Na slici je prikazano polje za unos imena vrste</p>
+        </div>
+
+        <div id="OpisVrste">
+            <h2>Opis vrste</h2>
+
+            <p>
+                Opis vrste služi kako bi se detaljno opisala neka vrsta. I ovo polje je kao i oznaka i ime vrste obavezno, te ukoliko korisnik
+                ne unese opis biće obavešten da treba da unese opis.
+            </p>
+            <img src="Images/opisVrste.png" />
+            <p>Na slici je prikazano polje za unos opisa vrste</p>
+        </div>
+
+        <div id="TipVrste">
+            <h2>Tip Vrste</h2>
+
+            <p>
+                Tip vrste predstavlja kategoriju u koju se odredjena vrsta stavlja. Korisnik bira jedan od ponudjenih tipova koje je predhodno dodao.
+                Ovo polje je takodje obavezno te je potrebno da korisnik odabere tačno jedan tip.
+                Ukoliko ne postoji nijedan tip prilikom unosa, korisniku je na raspolaganju dugme koje mu omogućava dodavanje novog tipa. Pritiskom na dugme
+                za dodavanje novog tipa otvoriće se novi dijalog gde je potrebno da korisnik unese sve neophodne parametre i sačuva izmene. Novododati tip
+                će se odmah prikazati u listi predhodno dodatih tipova.
+            </p>
+            <img src="Images/tipVrste.png" />
+            <p>Na slici je prikazano polje odabir tipa vrste</p>
+        </div>
+
+        <div id="EtiketeVrste">
+            <h2>Etiketa vrste</h2>
+            
+            <p>
+                Vrste mogu biti tagovane sa nijednom, jednom ili više etiketa. Etikete specificira korisnik i one su opisane svojom jedinstvenom
+                ljudski-čitljivom oznakom. Svaka etiketa se opisu preko svoje oznake, boje i opisa.
+            
+            </p>
+           <img src="Images/etiketaVrste.png" />
+            <p>Na slici je prikazano polje za odabir etiketa vrste</p>
+        </div>
+
+         <div id="StatusUgroženosti">
+            <h2>Status ugroženosti</h2>
+                
+            <p>
+            Status ugroženosti može imati jednu od sledećih vrednosti a to su: kritično ugrožena, ugrožena, ranjiva, zavisna od 
+                očuvanja staništa, blizu rizika i najmanjeg rizika. Pošto je ovo polje takodje obavezno potrebno je da korisnik odabere jednu
+                od ponudjenih vrednosti.
+        
+            </p>
+        </div>
+
+         <div id="IkonicaVrste">
+            <h2>Ikonica</h2>
+            
+            <p>
+                Ikonica predstavlja malu sličicu koju korisnik bira kako bi označio vrstu na mapi. Ukoliko korisnik ne odabere ikonicu
+                ona će se preuzeti od predhodno odabranog tipa. Ikonica kasnije treba da posluži za označavanje mesta na mapi
+                gde se odredjena ugrožena vrsta nalazi
+            
+            </p>
+            <img src="Images/odabirSlike.png" />
+            <p>Na slici je prikazano polje za odabir ikonice vrste</p>
+        </div>
+
+         <div id="OpZaLjude">
+            <h2>Opasna za ljude</h2>
+            
+            <p>
+                Ovo polje treba da posluži za označavanje ukoliko je vrsta opasna za ljude. Ukoliko nije ovo polje ostaviti prazno.
+                Prilikom selekcije polja pojaviće se mala kvačica koja predstavlja da je vrsta opasna za ljude.
+            
+            </p>
+            
+        </div>
+
+         <div id="NaIUCNLISTI">
+            <h2>Na IUCN Crvenoj listi</h2>
+            
+            <p>
+                Ukoliko se vrsta nalazi na IUCN Crvenoj listi potrebno je označiti ovo polje. Isto kao i kod predhodnog polja pojaviće se 
+                kvačica ukoliko se označi ovo polje.
+            </p>
+            
+        </div>
+
+         <div id="UNAsREG">
+            <h2>Živi u naseljenom regionu</h2>
+            
+            <p>
+                Ovo polje treba da označiti ukoliko vrsta živi u naseljenom mestu.
+            
+            </p>
+            
+        </div>
+
+         <div id="TurStat">
+            <h2>Turistički status</h2>
+            
+            <p>
+                Turistički status može imati jednu od sledećih vrednosti a to su: izolovana, delimično abituirana i habituirana. Ovo polje
+                je obavezno te je potrebno da korisnik odabere jednu od ponudjenih vrednosti.
+            
+            </p>
+        </div>
+
+         <div id="GodPrihod">
+            <h2>Godišnji prihod od turizma</h2>
+            
+            <p>
+                Godišnji prihod predstavlja cifru koju korisnik unosi za odredjenu vrstu. Ovo polje je takodje obavezno. Ukoliko korisnik
+                pokuša da unese nešto što nije broj tj neki karakter biće upozoren da je potrebno da godišnji prihod bude samo broj.
+                Takodje bitno je napomenuti da za godišnji prihod mogu da se dodaju i decimale npr. 2.423. Godišnji prihod se izražava u dolarima.
+            
+            </p>
+
+        </div>
+
+         <div id="DatOtkr">
+            <h2>Datum otrkivanja</h2>
+            
+            <p>
+                Datum otrkivanja predstavlja datum kada je odredjena vrsta otrkirvena. Potrebno je da korisnik na malom kalendaru odabere 
+                datum kada je vrsta otrkivena.
+            
+            </p>
+            
+        </div>
+
+	</body>
+</html>

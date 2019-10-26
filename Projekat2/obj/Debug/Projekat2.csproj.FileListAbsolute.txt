@@ -1,0 +1,114 @@
+C:\Users\Duka\Desktop\HCI\Projekat\Projekat2\bin\Debug\Projekat2.exe.config
+C:\Users\Duka\Desktop\HCI\Projekat\Projekat2\bin\Debug\Projekat2.exe
+C:\Users\Duka\Desktop\HCI\Projekat\Projekat2\bin\Debug\Projekat2.pdb
+C:\Users\Duka\Desktop\HCI\Projekat\Projekat2\bin\Debug\Xceed.Wpf.AvalonDock.dll
+C:\Users\Duka\Desktop\HCI\Projekat\Projekat2\bin\Debug\Xceed.Wpf.AvalonDock.Themes.Aero.dll
+C:\Users\Duka\Desktop\HCI\Projekat\Projekat2\bin\Debug\Xceed.Wpf.AvalonDock.Themes.Metro.dll
+C:\Users\Duka\Desktop\HCI\Projekat\Projekat2\bin\Debug\Xceed.Wpf.AvalonDock.Themes.VS2010.dll
+C:\Users\Duka\Desktop\HCI\Projekat\Projekat2\bin\Debug\Xceed.Wpf.Toolkit.dll
+C:\Users\Duka\Desktop\HCI\Projekat\Projekat2\bin\Debug\de\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\Duka\Desktop\HCI\Projekat\Projekat2\bin\Debug\es\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\Duka\Desktop\HCI\Projekat\Projekat2\bin\Debug\fr\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\Duka\Desktop\HCI\Projekat\Projekat2\bin\Debug\hu\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\Duka\Desktop\HCI\Projekat\Projekat2\bin\Debug\it\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\Duka\Desktop\HCI\Projekat\Projekat2\bin\Debug\pt-BR\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\Duka\Desktop\HCI\Projekat\Projekat2\bin\Debug\ro\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\Duka\Desktop\HCI\Projekat\Projekat2\bin\Debug\ru\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\Duka\Desktop\HCI\Projekat\Projekat2\bin\Debug\sv\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\Duka\Desktop\HCI\Projekat\Projekat2\bin\Debug\zh-Hans\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\Duka\Desktop\HCI\Projekat\Projekat2\obj\Debug\Demo\NovaEtiketaDemo.g.cs
+C:\Users\Duka\Desktop\HCI\Projekat\Projekat2\obj\Debug\Etiketa\IzmenaEtikete.g.cs
+C:\Users\Duka\Desktop\HCI\Projekat\Projekat2\obj\Debug\Etiketa\ListaEtiketa.g.cs
+C:\Users\Duka\Desktop\HCI\Projekat\Projekat2\obj\Debug\Tip\IzmeniTip.g.cs
+C:\Users\Duka\Desktop\HCI\Projekat\Projekat2\obj\Debug\Tip\ListaTipova.g.cs
+C:\Users\Duka\Desktop\HCI\Projekat\Projekat2\obj\Debug\Etiketa\NovaEtiketa.g.cs
+C:\Users\Duka\Desktop\HCI\Projekat\Projekat2\obj\Debug\Vrsta\IzmenaVrste.g.cs
+C:\Users\Duka\Desktop\HCI\Projekat\Projekat2\obj\Debug\Vrsta\ListaVrsta.g.cs
+C:\Users\Duka\Desktop\HCI\Projekat\Projekat2\obj\Debug\Vrsta\NovaVrsta.g.cs
+C:\Users\Duka\Desktop\HCI\Projekat\Projekat2\obj\Debug\Tip\NoviTip.g.cs
+C:\Users\Duka\Desktop\HCI\Projekat\Projekat2\obj\Debug\MainWindow.g.cs
+C:\Users\Duka\Desktop\HCI\Projekat\Projekat2\obj\Debug\App.g.cs
+C:\Users\Duka\Desktop\HCI\Projekat\Projekat2\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\Duka\Desktop\HCI\Projekat\Projekat2\obj\Debug\Projekat2_MarkupCompile.cache
+C:\Users\Duka\Desktop\HCI\Projekat\Projekat2\obj\Debug\Projekat2_MarkupCompile.lref
+C:\Users\Duka\Desktop\HCI\Projekat\Projekat2\obj\Debug\Demo\NovaEtiketaDemo.baml
+C:\Users\Duka\Desktop\HCI\Projekat\Projekat2\obj\Debug\Etiketa\IzmenaEtikete.baml
+C:\Users\Duka\Desktop\HCI\Projekat\Projekat2\obj\Debug\Etiketa\ListaEtiketa.baml
+C:\Users\Duka\Desktop\HCI\Projekat\Projekat2\obj\Debug\Tip\IzmeniTip.baml
+C:\Users\Duka\Desktop\HCI\Projekat\Projekat2\obj\Debug\Tip\ListaTipova.baml
+C:\Users\Duka\Desktop\HCI\Projekat\Projekat2\obj\Debug\Etiketa\NovaEtiketa.baml
+C:\Users\Duka\Desktop\HCI\Projekat\Projekat2\obj\Debug\Vrsta\IzmenaVrste.baml
+C:\Users\Duka\Desktop\HCI\Projekat\Projekat2\obj\Debug\Vrsta\ListaVrsta.baml
+C:\Users\Duka\Desktop\HCI\Projekat\Projekat2\obj\Debug\Vrsta\NovaVrsta.baml
+C:\Users\Duka\Desktop\HCI\Projekat\Projekat2\obj\Debug\Tip\NoviTip.baml
+C:\Users\Duka\Desktop\HCI\Projekat\Projekat2\obj\Debug\MainWindow.baml
+C:\Users\Duka\Desktop\HCI\Projekat\Projekat2\obj\Debug\Projekat2.g.resources
+C:\Users\Duka\Desktop\HCI\Projekat\Projekat2\obj\Debug\Projekat2.Properties.Resources.resources
+C:\Users\Duka\Desktop\HCI\Projekat\Projekat2\obj\Debug\Projekat2.csproj.GenerateResource.cache
+C:\Users\Duka\Desktop\HCI\Projekat\Projekat2\obj\Debug\Projekat2.csproj.CoreCompileInputs.cache
+C:\Users\Duka\Desktop\HCI\Projekat\Projekat2\obj\Debug\Projekat2.csproj.CopyComplete
+C:\Users\Duka\Desktop\HCI\Projekat\Projekat2\obj\Debug\Projekat2.exe
+C:\Users\Duka\Desktop\HCI\Projekat\Projekat2\obj\Debug\Projekat2.pdb
+C:\Users\Duka\Desktop\HCI\Projekat\Projekat2\obj\Debug\Projekat2.csprojAssemblyReference.cache
+C:\Users\Duka\Desktop\HCI\Projekat\Projekat2\obj\Debug\Demo\NoviTipDemo.g.cs
+C:\Users\Duka\Desktop\HCI\Projekat\Projekat2\obj\Debug\Demo\NoviTipDemo.baml
+C:\Users\Duka\Desktop\HCI\Projekat\Projekat2\obj\Debug\Help\Pomoc.g.cs
+C:\Users\Duka\Desktop\HCI\Projekat\Projekat2\obj\Debug\Help\Pomoc.baml
+C:\Users\Duka\Desktop\HCI\Projekat\Projekat2\obj\Debug\Projekat2_Content.g.cs
+C:\Users\Duka\Desktop\Treca godina\Sesti semestar\HCI\Projekat\Projekat2\bin\Debug\Projekat2.exe.config
+C:\Users\Duka\Desktop\Treca godina\Sesti semestar\HCI\Projekat\Projekat2\bin\Debug\Projekat2.exe
+C:\Users\Duka\Desktop\Treca godina\Sesti semestar\HCI\Projekat\Projekat2\bin\Debug\Projekat2.pdb
+C:\Users\Duka\Desktop\Treca godina\Sesti semestar\HCI\Projekat\Projekat2\bin\Debug\Xceed.Wpf.AvalonDock.dll
+C:\Users\Duka\Desktop\Treca godina\Sesti semestar\HCI\Projekat\Projekat2\bin\Debug\Xceed.Wpf.AvalonDock.Themes.Aero.dll
+C:\Users\Duka\Desktop\Treca godina\Sesti semestar\HCI\Projekat\Projekat2\bin\Debug\Xceed.Wpf.AvalonDock.Themes.Metro.dll
+C:\Users\Duka\Desktop\Treca godina\Sesti semestar\HCI\Projekat\Projekat2\bin\Debug\Xceed.Wpf.AvalonDock.Themes.VS2010.dll
+C:\Users\Duka\Desktop\Treca godina\Sesti semestar\HCI\Projekat\Projekat2\bin\Debug\Xceed.Wpf.Toolkit.dll
+C:\Users\Duka\Desktop\Treca godina\Sesti semestar\HCI\Projekat\Projekat2\bin\Debug\de\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\Duka\Desktop\Treca godina\Sesti semestar\HCI\Projekat\Projekat2\bin\Debug\es\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\Duka\Desktop\Treca godina\Sesti semestar\HCI\Projekat\Projekat2\bin\Debug\fr\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\Duka\Desktop\Treca godina\Sesti semestar\HCI\Projekat\Projekat2\bin\Debug\hu\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\Duka\Desktop\Treca godina\Sesti semestar\HCI\Projekat\Projekat2\bin\Debug\it\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\Duka\Desktop\Treca godina\Sesti semestar\HCI\Projekat\Projekat2\bin\Debug\pt-BR\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\Duka\Desktop\Treca godina\Sesti semestar\HCI\Projekat\Projekat2\bin\Debug\ro\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\Duka\Desktop\Treca godina\Sesti semestar\HCI\Projekat\Projekat2\bin\Debug\ru\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\Duka\Desktop\Treca godina\Sesti semestar\HCI\Projekat\Projekat2\bin\Debug\sv\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\Duka\Desktop\Treca godina\Sesti semestar\HCI\Projekat\Projekat2\bin\Debug\zh-Hans\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\Duka\Desktop\Treca godina\Sesti semestar\HCI\Projekat\Projekat2\obj\Debug\Projekat2.csprojAssemblyReference.cache
+C:\Users\Duka\Desktop\Treca godina\Sesti semestar\HCI\Projekat\Projekat2\obj\Debug\Demo\NovaEtiketaDemo.g.cs
+C:\Users\Duka\Desktop\Treca godina\Sesti semestar\HCI\Projekat\Projekat2\obj\Debug\Demo\NoviTipDemo.g.cs
+C:\Users\Duka\Desktop\Treca godina\Sesti semestar\HCI\Projekat\Projekat2\obj\Debug\Etiketa\IzmenaEtikete.g.cs
+C:\Users\Duka\Desktop\Treca godina\Sesti semestar\HCI\Projekat\Projekat2\obj\Debug\Etiketa\ListaEtiketa.g.cs
+C:\Users\Duka\Desktop\Treca godina\Sesti semestar\HCI\Projekat\Projekat2\obj\Debug\Help\Pomoc.g.cs
+C:\Users\Duka\Desktop\Treca godina\Sesti semestar\HCI\Projekat\Projekat2\obj\Debug\Tip\IzmeniTip.g.cs
+C:\Users\Duka\Desktop\Treca godina\Sesti semestar\HCI\Projekat\Projekat2\obj\Debug\Tip\ListaTipova.g.cs
+C:\Users\Duka\Desktop\Treca godina\Sesti semestar\HCI\Projekat\Projekat2\obj\Debug\Etiketa\NovaEtiketa.g.cs
+C:\Users\Duka\Desktop\Treca godina\Sesti semestar\HCI\Projekat\Projekat2\obj\Debug\Vrsta\IzmenaVrste.g.cs
+C:\Users\Duka\Desktop\Treca godina\Sesti semestar\HCI\Projekat\Projekat2\obj\Debug\Vrsta\ListaVrsta.g.cs
+C:\Users\Duka\Desktop\Treca godina\Sesti semestar\HCI\Projekat\Projekat2\obj\Debug\Vrsta\NovaVrsta.g.cs
+C:\Users\Duka\Desktop\Treca godina\Sesti semestar\HCI\Projekat\Projekat2\obj\Debug\Tip\NoviTip.g.cs
+C:\Users\Duka\Desktop\Treca godina\Sesti semestar\HCI\Projekat\Projekat2\obj\Debug\MainWindow.g.cs
+C:\Users\Duka\Desktop\Treca godina\Sesti semestar\HCI\Projekat\Projekat2\obj\Debug\App.g.cs
+C:\Users\Duka\Desktop\Treca godina\Sesti semestar\HCI\Projekat\Projekat2\obj\Debug\Projekat2_Content.g.cs
+C:\Users\Duka\Desktop\Treca godina\Sesti semestar\HCI\Projekat\Projekat2\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\Duka\Desktop\Treca godina\Sesti semestar\HCI\Projekat\Projekat2\obj\Debug\Projekat2_MarkupCompile.cache
+C:\Users\Duka\Desktop\Treca godina\Sesti semestar\HCI\Projekat\Projekat2\obj\Debug\Projekat2_MarkupCompile.lref
+C:\Users\Duka\Desktop\Treca godina\Sesti semestar\HCI\Projekat\Projekat2\obj\Debug\Demo\NovaEtiketaDemo.baml
+C:\Users\Duka\Desktop\Treca godina\Sesti semestar\HCI\Projekat\Projekat2\obj\Debug\Demo\NoviTipDemo.baml
+C:\Users\Duka\Desktop\Treca godina\Sesti semestar\HCI\Projekat\Projekat2\obj\Debug\Etiketa\IzmenaEtikete.baml
+C:\Users\Duka\Desktop\Treca godina\Sesti semestar\HCI\Projekat\Projekat2\obj\Debug\Etiketa\ListaEtiketa.baml
+C:\Users\Duka\Desktop\Treca godina\Sesti semestar\HCI\Projekat\Projekat2\obj\Debug\Help\Pomoc.baml
+C:\Users\Duka\Desktop\Treca godina\Sesti semestar\HCI\Projekat\Projekat2\obj\Debug\Tip\IzmeniTip.baml
+C:\Users\Duka\Desktop\Treca godina\Sesti semestar\HCI\Projekat\Projekat2\obj\Debug\Tip\ListaTipova.baml
+C:\Users\Duka\Desktop\Treca godina\Sesti semestar\HCI\Projekat\Projekat2\obj\Debug\Etiketa\NovaEtiketa.baml
+C:\Users\Duka\Desktop\Treca godina\Sesti semestar\HCI\Projekat\Projekat2\obj\Debug\Vrsta\IzmenaVrste.baml
+C:\Users\Duka\Desktop\Treca godina\Sesti semestar\HCI\Projekat\Projekat2\obj\Debug\Vrsta\ListaVrsta.baml
+C:\Users\Duka\Desktop\Treca godina\Sesti semestar\HCI\Projekat\Projekat2\obj\Debug\Vrsta\NovaVrsta.baml
+C:\Users\Duka\Desktop\Treca godina\Sesti semestar\HCI\Projekat\Projekat2\obj\Debug\Tip\NoviTip.baml
+C:\Users\Duka\Desktop\Treca godina\Sesti semestar\HCI\Projekat\Projekat2\obj\Debug\MainWindow.baml
+C:\Users\Duka\Desktop\Treca godina\Sesti semestar\HCI\Projekat\Projekat2\obj\Debug\Projekat2.g.resources
+C:\Users\Duka\Desktop\Treca godina\Sesti semestar\HCI\Projekat\Projekat2\obj\Debug\Projekat2.Properties.Resources.resources
+C:\Users\Duka\Desktop\Treca godina\Sesti semestar\HCI\Projekat\Projekat2\obj\Debug\Projekat2.csproj.GenerateResource.cache
+C:\Users\Duka\Desktop\Treca godina\Sesti semestar\HCI\Projekat\Projekat2\obj\Debug\Projekat2.csproj.CoreCompileInputs.cache
+C:\Users\Duka\Desktop\Treca godina\Sesti semestar\HCI\Projekat\Projekat2\obj\Debug\Projekat2.csproj.CopyComplete
+C:\Users\Duka\Desktop\Treca godina\Sesti semestar\HCI\Projekat\Projekat2\obj\Debug\Projekat2.exe
+C:\Users\Duka\Desktop\Treca godina\Sesti semestar\HCI\Projekat\Projekat2\obj\Debug\Projekat2.pdb

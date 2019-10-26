@@ -1,0 +1,101 @@
+<?xml version="1.0"?>
+<ArrayOfEtiketaKlasa xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <EtiketaKlasa>
+    <Oznaka>et0</Oznaka>
+    <Boja>
+      <A>255</A>
+      <R>127</R>
+      <G>255</G>
+      <B>212</B>
+      <ScA>1</ScA>
+      <ScR>0.212230757</ScR>
+      <ScG>1</ScG>
+      <ScB>0.658374846</ScB>
+    </Boja>
+    <Opis>fddbcv b  bfd f dbdfwe3 2fds</Opis>
+  </EtiketaKlasa>
+  <EtiketaKlasa>
+    <Oznaka>et1</Oznaka>
+    <Boja>
+      <A>255</A>
+      <R>255</R>
+      <G>0</G>
+      <B>0</B>
+      <ScA>1</ScA>
+      <ScR>1</ScR>
+      <ScG>0</ScG>
+      <ScB>0</ScB>
+    </Boja>
+    <Opis>afn dsjf adjsbfkasdfsd</Opis>
+  </EtiketaKlasa>
+  <EtiketaKlasa>
+    <Oznaka>et2</Oznaka>
+    <Boja>
+      <A>255</A>
+      <R>0</R>
+      <G>128</G>
+      <B>0</B>
+      <ScA>1</ScA>
+      <ScR>0</ScR>
+      <ScG>0.2158605</ScG>
+      <ScB>0</ScB>
+    </Boja>
+    <Opis>fd sa dfas32 32fe wfds</Opis>
+  </EtiketaKlasa>
+  <EtiketaKlasa>
+    <Oznaka>et3</Oznaka>
+    <Boja>
+      <A>255</A>
+      <R>255</R>
+      <G>228</G>
+      <B>196</B>
+      <ScA>1</ScA>
+      <ScR>1</ScR>
+      <ScG>0.7758222</ScG>
+      <ScB>0.55201143</ScB>
+    </Boja>
+    <Opis> asg sdfg dfsg dsf gds</Opis>
+  </EtiketaKlasa>
+  <EtiketaKlasa>
+    <Oznaka>et4</Oznaka>
+    <Boja>
+      <A>255</A>
+      <R>107</R>
+      <G>142</G>
+      <B>35</B>
+      <ScA>1</ScA>
+      <ScR>0.147027269</ScR>
+      <ScG>0.2704978</ScG>
+      <ScB>0.0168073755</ScB>
+    </Boja>
+    <Opis>gf dsg sdfg34 t43ht gd nbvn</Opis>
+  </EtiketaKlasa>
+  <EtiketaKlasa>
+    <Oznaka>et5</Oznaka>
+    <Boja>
+      <A>255</A>
+      <R>128</R>
+      <G>128</G>
+      <B>128</B>
+      <ScA>1</ScA>
+      <ScR>0.2158605</ScR>
+      <ScG>0.2158605</ScG>
+      <ScB>0.2158605</ScB>
+    </Boja>
+    <Opis>hjgf dfs</Opis>
+  </EtiketaKlasa>
+  <EtiketaKlasa>
+    <Oznaka>et6</Oznaka>
+    <Boja>
+      <A>255</A>
+      <R>0</R>
+      <G>0</G>
+      <B>255</B>
+      <ScA>1</ScA>
+      <ScR>0</ScR>
+      <ScG>0</ScG>
+      <ScB>1</ScB>
+    </Boja>
+    <Opis>43 gfd</Opis>
+  </EtiketaKlasa>
+</ArrayOfEtiketaKlasa>

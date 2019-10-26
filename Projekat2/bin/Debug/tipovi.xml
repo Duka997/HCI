@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<ArrayOfTipKlasa xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <TipKlasa>
+    <Oznaka>nsg5</Oznaka>
+    <Ime>CrniNos</Ime>
+    <Ikonica>C:\Users\Duka\Desktop\HCI\Projekat\slike vrsta\nosorog.png</Ikonica>
+    <Opis>asd fsad fda sdf</Opis>
+  </TipKlasa>
+  <TipKlasa>
+    <Oznaka>dlf2</Oznaka>
+    <Ime>plavi delfin</Ime>
+    <Ikonica>C:\Users\Duka\Desktop\HCI\Projekat\slike vrsta\delfin.png</Ikonica>
+    <Opis>fdsa fdas faf </Opis>
+  </TipKlasa>
+</ArrayOfTipKlasa>

@@ -1,0 +1,119 @@
+﻿<Window x:Class="Projekat2.Tip.NoviTip"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:val="clr-namespace:Projekat2.Tip"
+        xmlns:local="clr-namespace:Projekat2.Tip"
+        mc:Ignorable="d"
+        Title="Tip vrste" Height="380.605" Width="368.667">
+    <Grid Margin="5">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="1*" />
+            <ColumnDefinition Width="2*" />
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="auto" />
+            <RowDefinition Height="auto" />
+            <RowDefinition Height="auto" />
+            <RowDefinition Height="auto" />
+            <RowDefinition Height="auto" />
+        </Grid.RowDefinitions>
+
+        <Label VerticalAlignment="Center" Grid.Column="0" Grid.Row="0" Content="*Oznaka:" HorizontalAlignment="Center" Height="27" Margin="29,1,17,10" Width="67"></Label>
+        <TextBox Name="OznakaBox" Grid.Column="1" Grid.Row="0" Margin="5,5,5,14">
+            <TextBox.Text>
+                <Binding Path="Tip.Oznaka" UpdateSourceTrigger="PropertyChanged">
+                    <Binding.ValidationRules>
+                        <val:ValidacijaTipa ValidationStep="RawProposedValue"/>
+                        <val:ValidacijaTipaOznaka ValidationStep="RawProposedValue" />
+                    </Binding.ValidationRules>
+                </Binding>
+            </TextBox.Text>
+            <Validation.ErrorTemplate>
+                <ControlTemplate>
+                    <Grid>
+                        <Grid.RowDefinitions>
+                            <RowDefinition />
+                            <RowDefinition Height="auto" />
+                        </Grid.RowDefinitions>
+                        <AdornedElementPlaceholder Grid.Row="0" x:Name="textBox"/>
+                        <TextBlock Grid.Row="1" Text="{Binding [0].ErrorContent}" Foreground="Red"/>
+                    </Grid>
+                </ControlTemplate>
+            </Validation.ErrorTemplate>
+        </TextBox>
+
+        <Label  Grid.Column="0" Grid.Row="1"  Content="*Ime:" Margin="40,1,31,0" HorizontalAlignment="Center" VerticalAlignment="Top" Height="26" Width="42"/>
+        <TextBox x:Name="boxIme" Grid.Column="1" Grid.Row="1" Margin="5,5,5,14">
+            <TextBox.Text>
+                <Binding Path="Tip.Ime" UpdateSourceTrigger="PropertyChanged">
+                    <Binding.ValidationRules>
+                        <val:ValidacijaTip3 ValidationStep="RawProposedValue"/>
+                    </Binding.ValidationRules>
+                </Binding>
+            </TextBox.Text>
+            <Validation.ErrorTemplate>
+                <ControlTemplate>
+                    <Grid>
+                        <Grid.RowDefinitions>
+                            <RowDefinition />
+                            <RowDefinition Height="auto" />
+                        </Grid.RowDefinitions>
+                        <AdornedElementPlaceholder Grid.Row="0" x:Name="boxIme"/>
+                        <TextBlock Grid.Row="1" Text="{Binding [0].ErrorContent}" Foreground="Red"/>
+                    </Grid>
+                </ControlTemplate>
+            </Validation.ErrorTemplate>
+        </TextBox>
+
+        <Label VerticalAlignment="Center"  Grid.Column="0" Grid.Row="2" HorizontalAlignment="Center" Content="*Ikonica:"></Label>
+        <Border Grid.Column="2" Grid.Row="2" BorderThickness="1" CornerRadius="4" BorderBrush="Black" Margin="5">
+            <StackPanel Grid.Column="1" Grid.Row="2" Orientation="Vertical" Margin="10">
+                <Grid>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="1*" />
+                        <ColumnDefinition Width="1*" />
+                    </Grid.ColumnDefinitions>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="auto"/>
+                        <RowDefinition Height="auto" />
+                    </Grid.RowDefinitions>
+                    <Image Name="Ikonica" Grid.Row="0" Grid.Column="0" Source="/resources/nema_slike.png" VerticalAlignment="Top" Height="71" Margin="13,5,5,10" Grid.ColumnSpan="2"/>
+                    <Button Click="btnIkonica_Click" Grid.Row="1" Grid.Column="0" VerticalAlignment="Bottom" Margin="13,0,17,0" Content="Odaberi"/>
+                    <Button Click="btnIkonicaUkloni_Click" Grid.Row="1" Grid.Column="1" VerticalAlignment="Bottom" Margin="17,0,13,0" Content="Ukloni"/>
+                </Grid>
+            </StackPanel>
+        </Border>
+
+        <Label VerticalAlignment="Center" HorizontalAlignment="Center" Grid.Column="0" Grid.Row="3"  Content="*Opis:"></Label>
+        <TextBox x:Name="boxOpis" TextWrapping="Wrap" VerticalScrollBarVisibility="Auto" Grid.Column="1" Grid.Row="3" Margin="5" Height="60">
+            <TextBox.Text>
+                <Binding Path="Tip.Opis" UpdateSourceTrigger="PropertyChanged">
+                    <Binding.ValidationRules>
+                        <val:ValidacijaTip4 ValidationStep="RawProposedValue"/>
+                    </Binding.ValidationRules>
+                </Binding>
+            </TextBox.Text>
+            <Validation.ErrorTemplate>
+                <ControlTemplate>
+                    <Grid>
+                        <Grid.RowDefinitions>
+                            <RowDefinition />
+                            <RowDefinition Height="auto" />
+                        </Grid.RowDefinitions>
+                        <AdornedElementPlaceholder Grid.Row="0" x:Name="boxIme"/>
+                        <TextBlock Grid.Row="1" Text="{Binding [0].ErrorContent}" Foreground="Red"/>
+                    </Grid>
+                </ControlTemplate>
+            </Validation.ErrorTemplate>
+        </TextBox>
+
+        <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" Margin="0,15,0,0" Grid.Column="1" Grid.Row="12">
+            <Button HorizontalAlignment="Left" MinWidth="80px" MinHeight="30px" Click="btnSacuvaj_Click" Content="Sačuvaj"/>
+            <Button x:Name="OdustaniDugme" HorizontalAlignment="Right" MinWidth="80px" MinHeight="30px" Margin="5,0,0,0" Height="30" VerticalAlignment="Bottom" Click="Cancel_Click" Content="Odustani"/>
+        </StackPanel>
+
+    </Grid>
+</Window>

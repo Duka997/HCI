@@ -1,0 +1,313 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{EA3B6D74-408D-4EE3-AA1B-D2E0078D6342}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>Projekat2</RootNamespace>
+    <AssemblyName>Projekat2</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{60dc8134-eba5-43b8-bcc9-bb4bc16c2548};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <WarningLevel>4</WarningLevel>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xaml">
+      <RequiredTargetFramework>4.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="WindowsBase" />
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
+    <Reference Include="Xceed.Wpf.AvalonDock, Version=3.5.0.0, Culture=neutral, PublicKeyToken=3e4669d2f30244f4, processorArchitecture=MSIL">
+      <HintPath>..\packages\Extended.Wpf.Toolkit.3.5.0\lib\net40\Xceed.Wpf.AvalonDock.dll</HintPath>
+    </Reference>
+    <Reference Include="Xceed.Wpf.AvalonDock.Themes.Aero, Version=3.5.0.0, Culture=neutral, PublicKeyToken=3e4669d2f30244f4, processorArchitecture=MSIL">
+      <HintPath>..\packages\Extended.Wpf.Toolkit.3.5.0\lib\net40\Xceed.Wpf.AvalonDock.Themes.Aero.dll</HintPath>
+    </Reference>
+    <Reference Include="Xceed.Wpf.AvalonDock.Themes.Metro, Version=3.5.0.0, Culture=neutral, PublicKeyToken=3e4669d2f30244f4, processorArchitecture=MSIL">
+      <HintPath>..\packages\Extended.Wpf.Toolkit.3.5.0\lib\net40\Xceed.Wpf.AvalonDock.Themes.Metro.dll</HintPath>
+    </Reference>
+    <Reference Include="Xceed.Wpf.AvalonDock.Themes.VS2010, Version=3.5.0.0, Culture=neutral, PublicKeyToken=3e4669d2f30244f4, processorArchitecture=MSIL">
+      <HintPath>..\packages\Extended.Wpf.Toolkit.3.5.0\lib\net40\Xceed.Wpf.AvalonDock.Themes.VS2010.dll</HintPath>
+    </Reference>
+    <Reference Include="Xceed.Wpf.Toolkit, Version=3.5.0.0, Culture=neutral, PublicKeyToken=3e4669d2f30244f4, processorArchitecture=MSIL">
+      <HintPath>..\packages\Extended.Wpf.Toolkit.3.5.0\lib\net40\Xceed.Wpf.Toolkit.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <ApplicationDefinition Include="App.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </ApplicationDefinition>
+    <Compile Include="Demo\NovaEtiketaDemo.xaml.cs">
+      <DependentUpon>NovaEtiketaDemo.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Demo\NoviTipDemo.xaml.cs">
+      <DependentUpon>NoviTipDemo.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Etiketa\IzmenaEtikete.xaml.cs">
+      <DependentUpon>IzmenaEtikete.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Etiketa\ListaEtiketa.xaml.cs">
+      <DependentUpon>ListaEtiketa.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Help\Pomoc.xaml.cs">
+      <DependentUpon>Pomoc.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Tip\IzmeniTip.xaml.cs">
+      <DependentUpon>IzmeniTip.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Tip\ListaTipova.xaml.cs">
+      <DependentUpon>ListaTipova.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Etiketa\NovaEtiketa.xaml.cs">
+      <DependentUpon>NovaEtiketa.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Etiketa\EtiketaKlasa.cs" />
+    <Compile Include="Etiketa\SerijalizacijaEtikete.cs" />
+    <Compile Include="Etiketa\ValidacijaEtikete.cs" />
+    <Compile Include="Podaci.cs" />
+    <Compile Include="Tip\SerijalizacijaTipa.cs" />
+    <Compile Include="Tip\TipKlasa.cs" />
+    <Compile Include="Tip\ValidacijaTipa.cs" />
+    <Compile Include="Vrsta\IzmenaVrste.xaml.cs">
+      <DependentUpon>IzmenaVrste.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Vrsta\ListaVrsta.xaml.cs">
+      <DependentUpon>ListaVrsta.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Vrsta\NovaVrsta.xaml.cs">
+      <DependentUpon>NovaVrsta.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Vrsta\SerijalizacijaVrste.cs" />
+    <Compile Include="Vrsta\ValidacijaVrste.cs" />
+    <Compile Include="Vrsta\VrstaKlasa.cs" />
+    <Compile Include="Win32.cs" />
+    <Page Include="Demo\NovaEtiketaDemo.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Demo\NoviTipDemo.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Etiketa\IzmenaEtikete.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Etiketa\ListaEtiketa.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Help\Pomoc.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Tip\IzmeniTip.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Tip\ListaTipova.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Etiketa\NovaEtiketa.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Vrsta\IzmenaVrste.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Vrsta\ListaVrsta.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Vrsta\NovaVrsta.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Tip\NoviTip.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="MainWindow.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Compile Include="App.xaml.cs">
+      <DependentUpon>App.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Dijalog\Komande.cs" />
+    <Compile Include="Tip\NoviTip.xaml.cs">
+      <DependentUpon>NoviTip.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="MainWindow.xaml.cs">
+      <DependentUpon>MainWindow.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Properties\AssemblyInfo.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="resources\map2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="resources\nema_slike.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="resources\tip.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="resources\list.png" />
+    <Resource Include="resources\map.jpg" />
+    <Resource Include="resources\plus.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="resources\vrsta.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="resources\vrsta_oFm_icon.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="resources\delete.png" />
+    <Resource Include="resources\edit.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="resources\etiketa.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="resources\search.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="resources\logo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="resources\logo.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="resources\map3.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="resources\close.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="resources\tip.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="resources\etiketa2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="resources\demo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="resources\help.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="resources\back.png" />
+    <Resource Include="resources\forward.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Help\app.htm">
+      <Generator>MSBuild:Compile</Generator>
+    </Content>
+    <Content Include="Help\etiketa.htm">
+      <Generator>MSBuild:Compile</Generator>
+    </Content>
+    <Resource Include="Help\Images\tabelaEtiketa.png" />
+    <Resource Include="Help\Images\tabelaTipova.png" />
+    <Resource Include="Help\Images\tabelaVrsta.png" />
+    <Content Include="Help\pregledEtiketa.htm">
+      <Generator>MSBuild:Compile</Generator>
+    </Content>
+    <Content Include="Help\pregledTipova.htm">
+      <Generator>MSBuild:Compile</Generator>
+    </Content>
+    <Content Include="Help\pregledVrsta.htm">
+      <Generator>MSBuild:Compile</Generator>
+    </Content>
+    <Resource Include="Help\Images\novaBoja.png" />
+    <Resource Include="Help\Images\novaEtiketa.png" />
+    <Resource Include="Help\Images\imeTip.png" />
+    <Resource Include="Help\Images\noviTip.png" />
+    <Resource Include="Help\Images\opisTip.png" />
+    <Resource Include="Help\Images\oznakaTip.png" />
+    <Resource Include="Help\Images\slikaTip.png" />
+    <Content Include="Help\tip.htm">
+      <Generator>MSBuild:Compile</Generator>
+    </Content>
+    <Resource Include="Help\Images\etiketaVrste.png" />
+    <Resource Include="Help\Images\imeVrste.png" />
+    <Resource Include="Help\Images\novaVrsta.png" />
+    <Resource Include="Help\Images\odabirSlike.png" />
+    <Resource Include="Help\Images\opisVrste.png" />
+    <Resource Include="Help\Images\tipVrste.png" />
+    <Content Include="Help\vrsta.htm">
+      <Generator>MSBuild:Compile</Generator>
+    </Content>
+    <Resource Include="Help\Images\kanvas.png" />
+    <Resource Include="Help\Images\toolbar.png" />
+    <Resource Include="Help\Images\ugroVrste.png" />
+    <Content Include="Help\Index.html">
+      <Generator>MSBuild:Compile</Generator>
+    </Content>
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
